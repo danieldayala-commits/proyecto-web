@@ -8,7 +8,7 @@ document.body.appendChild(darkModeBtn);
 
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
-}
+};
 
 
 darkModeBtn.addEventListener("click", toggleDarkMode);
@@ -43,5 +43,5 @@ style.textContent = `
 button {
     cursor: pointer;
 }
-`;
+;
 document.head.appendChild(style);
