@@ -37,7 +37,7 @@ paragraph.addEventListener("click", () => {
 const style = document.createElement("style");
 style.textContent = `
 .dark-mode {
-    background-color: #121212;
+    background-color: rgba(8, 127, 245, 0.27);
     color: #ffffff;
 }
 button {
