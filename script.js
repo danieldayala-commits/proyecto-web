@@ -8,7 +8,7 @@ document.body.appendChild(darkModeBtn);
 
 function toggleDarkMode() {
     document.body.classList.toggle("dark-mode");
-};
+}
 
 
 darkModeBtn.addEventListener("click", toggleDarkMode);
@@ -37,11 +37,11 @@ paragraph.addEventListener("click", () => {
 const style = document.createElement("style");
 style.textContent = `
 .dark-mode {
-    background-color: rgba(8, 127, 245, 0.27);
+    background-color: #121212;
     color: #ffffff;
 }
 button {
     cursor: pointer;
 }
-;
+`;
 document.head.appendChild(style);
